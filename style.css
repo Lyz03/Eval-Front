@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+section {
+    width: 90%;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+/*
+* Left part
+ */
+
+.top_left, .middle_left, .bottom_left {
+    width: 63%;
+
+}
+
+div > div {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33.2%;
+    height: auto;
+    padding: 40px 0 50px 0;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 0.7rem;
+}
+
+div img {
+    width: 45%;
+    height: auto;
+}
+
+/*
+* General info div
+ */
+
+#general_info {
+    width: 66.6%;
+    height: auto;
+    padding: 48px 30px;
+    text-align: left;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#general_info p {
+    margin-bottom: 10px;
+}
+
+#general_info button {
+    padding: 10px;
+    font-size: 0.7rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/*
+* Other div (left)
+ */
+
+.float_right {
+    float: right;
+}
+
+.middle_left div, .bottom_left div {
+    margin-right: -0.25rem;
+}
+
+/*
+* Background color
+ */
+
+.green {
+    background-color: #b0ccb0;
+}
+
+.yellow {
+    background-color: #d3c598;
+}
+
+.blue {
+    background-color: #9fabd0;
+}
+
+.red {
+    background-color: #d09d9d;
+}
+
+.orange {
+    background-color: #d3ad8c;
+}
