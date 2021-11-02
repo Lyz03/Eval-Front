@@ -14,21 +14,26 @@ section {
     margin: 20px auto;
 }
 
+.float_right {
+    float: right;
+}
+
 /*
 * Left part
  */
 
 .left {
+    float: left;
     display: inline-block;
     width: 63%;
 }
 
 div > div > div {
-
+    float: left;
     display: inline-block;
     width: 33.2%;
     height: auto;
-    padding: 40px 0 50px 0;
+    padding: 52px 0 52px 0;
     text-align: center;
     color: white;
 }
@@ -38,7 +43,7 @@ h2 {
 }
 
 div img {
-    width: 45%;
+    width: 40%;
     height: auto;
 }
 
@@ -47,9 +52,9 @@ div img {
  */
 
 #general_info {
-    width: 59%;
+    width: 59.3%;
     height: auto;
-    padding: 48px 30px;
+    padding: 46px 30px;
     text-align: left;
     color: white;
 }
@@ -64,22 +69,17 @@ h1 {
 
 #general_info button {
     padding: 10px;
+    margin-right: 10px;
     font-size: 0.7rem;
     background-color: transparent;
     border: 1px solid white;
     color: white;
 }
 
-/*
-* Other div (left)
- */
-
-.float_right {
-    float: right;
-}
-
-.middle_left div, .bottom_left div {
-    margin-right: -0.25rem;
+#general_info button:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 /*
@@ -87,23 +87,23 @@ h1 {
  */
 
 .green {
-    background-color: #b0ccb0;
+    background-color: #a9d2a9;
 }
 
 .yellow {
-    background-color: #d3c598;
+    background-color: #e7d6a2;
 }
 
 .blue {
-    background-color: #9fabd0;
+    background-color: #abb8e1;
 }
 
 .red {
-    background-color: #d09d9d;
+    background-color: #e5acac;
 }
 
 .orange {
-    background-color: #d3ad8c;
+    background-color: #ecc29e;
 }
 
 /*
@@ -111,12 +111,11 @@ h1 {
  */
 
 .right {
+    margin-left: -3px;
     display: inline-block;
     width: 36.8%;
     height: auto;
     max-height: 700px;
-    float: right;
-    border: 1px solid black;
 }
 
 .right img {
@@ -137,10 +136,14 @@ h1 {
 
 .arrows {
     padding: 10px 0;
-    border-radius: 50px;
+    border-radius: 100px;
     z-index: 10;
-    border: 1px solid white;
+    border: 2px solid white;
     width: 40px;
     height: auto;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.arrows:hover {
+    background-color: #a9d2a9;
 }
