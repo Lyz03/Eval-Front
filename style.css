@@ -147,3 +147,59 @@ h1 {
 .arrows:hover {
     background-color: #a9d2a9;
 }
+
+/*
+* Responsive
+ */
+
+@media screen and (max-width: 1200px) {
+
+    .left {
+        width: 90%;
+        display: block;
+        margin: 2rem auto;
+        float: none;
+    }
+
+    #general_info {
+        width: 60%;
+        height: 10rem;
+    }
+
+    div > div > div {
+        height: 9.5rem;
+    }
+
+    .right {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    .right img {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+
+    #general_info {
+        width: 92%;
+    }
+
+    div > div > div {
+        width: 100%;
+    }
+
+    div img {
+        width: 20%;
+    }
+
+    .right {
+        width: 90%;
+    }
+
+    .right img {
+        margin: 0;
+    }
+}
